@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cek Khodam</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+ <div class="wadah">
+   <h4 class="wm">By.Nazwan</h4>
+  <div class="container">
+    <div class="judul">
+      <h2 class="h3">AYO CEK KHODAM KAMU</h2>
+    </div>
+    
+    <div class="judul_pertanyaan">
+     <p class="p">masukan nama kamu di bawah ini!</p>
+    </div>
+    
+    <div class="input_pertanyaan">
+      <input id="userName" oninput="cekInput()" type="text"/>
+      <button class="cek" id="tampilSekali" onclick="jalankanFungsi()" disabled>Cekk</button>
+      <div class="hasil_jawaban">
+        <h3 class="jawaban" id="jawaban"></h3>
+      </div>
+      <button class="reset" id="resetButton" onclick="resetForm()">Reset</button>
+    </div>
+  </div>
+  <button class="button" onclick="redirTiktok()">MyTiktok</button>
+ </div>
+    <script src="script.js" type="text/javascript"></script>
+  
+</body>
+</html> 
